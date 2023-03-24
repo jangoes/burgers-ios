@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A3A6A7C29CDB5CA00C51D37 /* burgers_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6A7B29CDB5CA00C51D37 /* burgers_iosApp.swift */; };
+		7A3A6A7C29CDB5CA00C51D37 /* BurgersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6A7B29CDB5CA00C51D37 /* BurgersApp.swift */; };
 		7A3A6A7E29CDB5CA00C51D37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6A7D29CDB5CA00C51D37 /* ContentView.swift */; };
 		7A3A6A8029CDB5CC00C51D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3A6A7F29CDB5CC00C51D37 /* Assets.xcassets */; };
 		7A3A6A8329CDB5CC00C51D37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3A6A8229CDB5CC00C51D37 /* Preview Assets.xcassets */; };
-		7A3A6A8D29CDB5CC00C51D37 /* burgers_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6A8C29CDB5CC00C51D37 /* burgers_iosTests.swift */; };
-		7A3A6A9729CDB5CC00C51D37 /* burgers_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6A9629CDB5CC00C51D37 /* burgers_iosUITests.swift */; };
-		7A3A6A9929CDB5CC00C51D37 /* burgers_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6A9829CDB5CC00C51D37 /* burgers_iosUITestsLaunchTests.swift */; };
+		7A3A6A8D29CDB5CC00C51D37 /* BurgersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6A8C29CDB5CC00C51D37 /* BurgersTests.swift */; };
+		7A3A6AA629CDB66D00C51D37 /* burgers.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A3A6AA529CDB66D00C51D37 /* burgers.json */; };
+		7A3A6AAE29CDB94400C51D37 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6AAD29CDB94400C51D37 /* ContentViewModel.swift */; };
+		7A3A6AB329CDBD4800C51D37 /* Burgers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6AB229CDBD4800C51D37 /* Burgers.swift */; };
+		7A3A6AB529CDC0C600C51D37 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6AB429CDC0C600C51D37 /* RequestManager.swift */; };
+		7A3A6AB929CDCE8500C51D37 /* BurgerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6AB829CDCE8500C51D37 /* BurgerCardView.swift */; };
+		7A3A6ABB29CDD5CC00C51D37 /* BurgerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6ABA29CDD5CC00C51D37 /* BurgerListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +39,20 @@
 
 /* Begin PBXFileReference section */
 		7A3A6A7829CDB5CA00C51D37 /* burgers-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "burgers-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A3A6A7B29CDB5CA00C51D37 /* burgers_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burgers_iosApp.swift; sourceTree = "<group>"; };
+		7A3A6A7B29CDB5CA00C51D37 /* BurgersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgersApp.swift; sourceTree = "<group>"; };
 		7A3A6A7D29CDB5CA00C51D37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A3A6A7F29CDB5CC00C51D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3A6A8229CDB5CC00C51D37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A3A6A8829CDB5CC00C51D37 /* burgers-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "burgers-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A3A6A8C29CDB5CC00C51D37 /* burgers_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burgers_iosTests.swift; sourceTree = "<group>"; };
+		7A3A6A8C29CDB5CC00C51D37 /* BurgersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgersTests.swift; sourceTree = "<group>"; };
 		7A3A6A9229CDB5CC00C51D37 /* burgers-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "burgers-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A3A6A9629CDB5CC00C51D37 /* burgers_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burgers_iosUITests.swift; sourceTree = "<group>"; };
-		7A3A6A9829CDB5CC00C51D37 /* burgers_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burgers_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A3A6AA529CDB66D00C51D37 /* burgers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = burgers.json; sourceTree = "<group>"; };
+		7A3A6AAD29CDB94400C51D37 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		7A3A6AB229CDBD4800C51D37 /* Burgers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burgers.swift; sourceTree = "<group>"; };
+		7A3A6AB429CDC0C600C51D37 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		7A3A6AB829CDCE8500C51D37 /* BurgerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerCardView.swift; sourceTree = "<group>"; };
+		7A3A6ABA29CDD5CC00C51D37 /* BurgerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerListView.swift; sourceTree = "<group>"; };
+		7A3A6ABC29CDE06D00C51D37 /* burgers-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "burgers-ios-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +83,9 @@
 		7A3A6A6F29CDB5C900C51D37 = {
 			isa = PBXGroup;
 			children = (
-				7A3A6A7A29CDB5CA00C51D37 /* burgers-ios */,
-				7A3A6A8B29CDB5CC00C51D37 /* burgers-iosTests */,
-				7A3A6A9529CDB5CC00C51D37 /* burgers-iosUITests */,
+				7A3A6ABC29CDE06D00C51D37 /* burgers-ios-Info.plist */,
+				7A3A6A7A29CDB5CA00C51D37 /* Burgers */,
+				7A3A6A8B29CDB5CC00C51D37 /* BurgersTests */,
 				7A3A6A7929CDB5CA00C51D37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,15 +100,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A3A6A7A29CDB5CA00C51D37 /* burgers-ios */ = {
+		7A3A6A7A29CDB5CA00C51D37 /* Burgers */ = {
 			isa = PBXGroup;
 			children = (
-				7A3A6A7B29CDB5CA00C51D37 /* burgers_iosApp.swift */,
-				7A3A6A7D29CDB5CA00C51D37 /* ContentView.swift */,
+				7A3A6AAA29CDB6E200C51D37 /* Core */,
+				7A3A6AAC29CDB78D00C51D37 /* Model */,
+				7A3A6AA829CDB6BA00C51D37 /* Views */,
+				7A3A6AAB29CDB78100C51D37 /* ViewModels */,
+				7A3A6AC029CDE6B300C51D37 /* Utilities */,
 				7A3A6A7F29CDB5CC00C51D37 /* Assets.xcassets */,
+				7A3A6AA529CDB66D00C51D37 /* burgers.json */,
 				7A3A6A8129CDB5CC00C51D37 /* Preview Content */,
 			);
-			path = "burgers-ios";
+			path = Burgers;
 			sourceTree = "<group>";
 		};
 		7A3A6A8129CDB5CC00C51D37 /* Preview Content */ = {
@@ -110,21 +123,70 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7A3A6A8B29CDB5CC00C51D37 /* burgers-iosTests */ = {
+		7A3A6A8B29CDB5CC00C51D37 /* BurgersTests */ = {
 			isa = PBXGroup;
 			children = (
-				7A3A6A8C29CDB5CC00C51D37 /* burgers_iosTests.swift */,
+				7A3A6A8C29CDB5CC00C51D37 /* BurgersTests.swift */,
 			);
-			path = "burgers-iosTests";
+			path = BurgersTests;
 			sourceTree = "<group>";
 		};
-		7A3A6A9529CDB5CC00C51D37 /* burgers-iosUITests */ = {
+		7A3A6AA829CDB6BA00C51D37 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7A3A6A9629CDB5CC00C51D37 /* burgers_iosUITests.swift */,
-				7A3A6A9829CDB5CC00C51D37 /* burgers_iosUITestsLaunchTests.swift */,
+				7A3A6AB029CDBAD900C51D37 /* Component Views */,
+				7A3A6AAF29CDBABF00C51D37 /* Screen Views */,
 			);
-			path = "burgers-iosUITests";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A3A6AAA29CDB6E200C51D37 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7A3A6A7B29CDB5CA00C51D37 /* BurgersApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7A3A6AAB29CDB78100C51D37 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7A3A6AAD29CDB94400C51D37 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7A3A6AAC29CDB78D00C51D37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A3A6AB229CDBD4800C51D37 /* Burgers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A3A6AAF29CDBABF00C51D37 /* Screen Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A3A6A7D29CDB5CA00C51D37 /* ContentView.swift */,
+			);
+			path = "Screen Views";
+			sourceTree = "<group>";
+		};
+		7A3A6AB029CDBAD900C51D37 /* Component Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A3A6AB829CDCE8500C51D37 /* BurgerCardView.swift */,
+				7A3A6ABA29CDD5CC00C51D37 /* BurgerListView.swift */,
+			);
+			path = "Component Views";
+			sourceTree = "<group>";
+		};
+		7A3A6AC029CDE6B300C51D37 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7A3A6AB429CDC0C600C51D37 /* RequestManager.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +205,8 @@
 			dependencies = (
 			);
 			name = "burgers-ios";
+			packageProductDependencies = (
+			);
 			productName = "burgers-ios";
 			productReference = 7A3A6A7829CDB5CA00C51D37 /* burgers-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +279,8 @@
 				Base,
 			);
 			mainGroup = 7A3A6A6F29CDB5C900C51D37;
+			packageReferences = (
+			);
 			productRefGroup = 7A3A6A7929CDB5CA00C51D37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +299,7 @@
 			files = (
 				7A3A6A8329CDB5CC00C51D37 /* Preview Assets.xcassets in Resources */,
 				7A3A6A8029CDB5CC00C51D37 /* Assets.xcassets in Resources */,
+				7A3A6AA629CDB66D00C51D37 /* burgers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3A6AB529CDC0C600C51D37 /* RequestManager.swift in Sources */,
+				7A3A6AB929CDCE8500C51D37 /* BurgerCardView.swift in Sources */,
 				7A3A6A7E29CDB5CA00C51D37 /* ContentView.swift in Sources */,
-				7A3A6A7C29CDB5CA00C51D37 /* burgers_iosApp.swift in Sources */,
+				7A3A6AB329CDBD4800C51D37 /* Burgers.swift in Sources */,
+				7A3A6A7C29CDB5CA00C51D37 /* BurgersApp.swift in Sources */,
+				7A3A6AAE29CDB94400C51D37 /* ContentViewModel.swift in Sources */,
+				7A3A6ABB29CDD5CC00C51D37 /* BurgerListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A3A6A8D29CDB5CC00C51D37 /* burgers_iosTests.swift in Sources */,
+				7A3A6A8D29CDB5CC00C51D37 /* BurgersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +346,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A3A6A9729CDB5CC00C51D37 /* burgers_iosUITests.swift in Sources */,
-				7A3A6A9929CDB5CC00C51D37 /* burgers_iosUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +486,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"burgers-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Burgers/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "burgers-ios-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -444,9 +515,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"burgers-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Burgers/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "burgers-ios-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

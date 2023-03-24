@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Chicken Burger",
+        "category": "Easy",
+        "position": 2
+    },
+    {
+        "id": 2,
+        "name": "Beef Burger",
+        "category": "Medium",
+        "position": 8
+    },
+    {
+        "id": 3,
+        "name": "Veggie Burger",
+        "category": "Easy",
+        "position": 3
+    },
+    {
+        "id": 4,
+        "name": "Fish Burger",
+        "category": "Hard",
+        "position": 5
+    },
+    {
+        "id": 5,
+        "name": "Cheese Burger",
+        "category": "Easy",
+        "position": 6
+    },
+    {
+        "id": 6,
+        "name": "Turkey Burger",
+        "category": "Medium",
+        "position": 17
+    },
+    {
+        "id": 7,
+        "name": "Mushroom Burger",
+        "category": "Easy",
+        "position": 14
+    },
+    {
+        "id": 8,
+        "name": "Lamb Burger",
+        "category": "Medium",
+        "position": 1
+    },
+    {
+        "id": 9,
+        "name": "Shrimp Burger",
+        "category": "Hard",
+        "position": 19
+    },
+    {
+        "id": 10,
+        "name": "Pork Burger",
+        "category": "Medium",
+        "position": 11
+    },
+    {
+        "id": 11,
+        "name": "BBQ Burger",
+        "category": "Easy",
+        "position": 15
+    },
+    {
+        "id": 12,
+        "name": "Salmon Burger",
+        "category": "Hard",
+        "position": 9
+    },
+    {
+        "id": 13,
+        "name": "Portobello Burger",
+        "category": "Medium",
+        "position": 4
+    },
+    {
+        "id": 14,
+        "name": "Tuna Burger",
+        "category": "Hard",
+        "position": 7
+    },
+    {
+        "id": 15,
+        "name": "Spinach Burger",
+        "category": "Easy",
+        "position": 12
+    },
+    {
+        "id": 16,
+        "name": "Venison Burger",
+        "category": "Hard",
+        "position": 16
+    },
+    {
+        "id": 17,
+        "name": "Garden Burger",
+        "category": "Easy",
+        "position": 10
+    },
+    {
+        "id": 18,
+        "name": "Bison Burger",
+        "category": "Medium",
+        "position": 13
+    },
+    {
+        "id": 19,
+        "name": "Quinoa Burger",
+        "category": "Easy",
+        "position": 18
+    },
+    {
+        "id": 20,
+        "name": "Crab Burger",
+        "category": "Hard",
+        "position": 20
+    }
+]
