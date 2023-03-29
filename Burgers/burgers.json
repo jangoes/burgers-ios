@@ -3,120 +3,140 @@
         "id": 1,
         "name": "Chicken Burger",
         "category": "Easy",
-        "position": 2
+        "position": 2,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 2,
         "name": "Beef Burger",
         "category": "Medium",
-        "position": 8
+        "position": 8,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 3,
         "name": "Veggie Burger",
         "category": "Easy",
-        "position": 3
+        "position": 3,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 4,
         "name": "Fish Burger",
         "category": "Hard",
-        "position": 5
+        "position": 5,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 5,
         "name": "Cheese Burger",
         "category": "Easy",
-        "position": 6
+        "position": 6,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 6,
         "name": "Turkey Burger",
         "category": "Medium",
-        "position": 17
+        "position": 17,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 7,
         "name": "Mushroom Burger",
         "category": "Easy",
-        "position": 14
+        "position": 14,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 8,
         "name": "Lamb Burger",
         "category": "Medium",
-        "position": 1
+        "position": 1,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 9,
         "name": "Shrimp Burger",
         "category": "Hard",
-        "position": 19
+        "position": 19,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 10,
         "name": "Pork Burger",
         "category": "Medium",
-        "position": 11
+        "position": 11,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 11,
         "name": "BBQ Burger",
         "category": "Easy",
-        "position": 15
+        "position": 15,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 12,
         "name": "Salmon Burger",
         "category": "Hard",
-        "position": 9
+        "position": 9,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 13,
         "name": "Portobello Burger",
         "category": "Medium",
-        "position": 4
+        "position": 4,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 14,
         "name": "Tuna Burger",
         "category": "Hard",
-        "position": 7
+        "position": 7,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 15,
         "name": "Spinach Burger",
         "category": "Easy",
-        "position": 12
+        "position": 12,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 16,
         "name": "Venison Burger",
         "category": "Hard",
-        "position": 16
+        "position": 16,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 17,
         "name": "Garden Burger",
         "category": "Easy",
-        "position": 10
+        "position": 10,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 18,
         "name": "Bison Burger",
         "category": "Medium",
-        "position": 13
+        "position": 13,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 19,
         "name": "Quinoa Burger",
         "category": "Easy",
-        "position": 18
+        "position": 18,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     },
     {
         "id": 20,
         "name": "Crab Burger",
         "category": "Hard",
-        "position": 20
+        "position": 20,
+        "imageUrl": "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg"
     }
 ]

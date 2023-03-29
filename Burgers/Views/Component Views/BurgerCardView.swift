@@ -12,13 +12,12 @@ struct BurgerCardView: View {
     let burger: BurgerItem
 
     private let imageHeight: CGFloat = 200
-    private let imageURL = URL(string: "https://ddg0cip9uom1w.cloudfront.net/code-challenge/burger.jpg")
 
     var body: some View {
         VStack(spacing: 0) {
             // Info: image caching ~
             // https://www.avanderlee.com/swiftui/downloading-caching-images/
-            AsyncImage(url: imageURL) { image in
+            AsyncImage(url: URL(string: burger.imageUrl)) { image in
                 image // Displays the loaded image.
                     .resizable()
                     .aspectRatio(contentMode: .fill)
