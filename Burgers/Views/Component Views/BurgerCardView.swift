@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import CachedAsyncImage
 
 struct BurgerCardView: View {
     let burger: BurgerItem
